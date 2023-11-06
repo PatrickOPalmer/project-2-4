@@ -1,0 +1,169 @@
+
+body {
+    max-width: 90%;
+    height: 600px;
+    background-color: rgb(225, 143, 143);
+    padding: 2em;
+    margin: auto;   
+}
+
+html {
+    margin-bottom: 500px;
+}
+header {
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    display:block;
+    margin:auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 200%;
+    color: darkred;
+    text-align: center;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+a:hover, a:active {
+    color: maroon;      
+}
+
+a:link, a:visited {
+    color: saddlebrown;
+}
+
+a:link {
+    color:black;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 99%;
+}
+
+footer { 
+    color: gray;
+    background-color: whitesmoke;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;   
+    text-align: right;
+    font-size: 1vw;
+    height: 3.4em;
+    padding-top: 0;    
+}
+
+#nav_menu {
+    list-style-type: none;
+    text-align: center;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+    }
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em;
+    font-size: 2vw;
+}
+
+#nav_menu > ul {
+    line-height: 2.2em;
+    list-style-type: square;
+    padding-left: 1em;
+    font-size: 1em;
+}
+
+main {
+    width: 100%;
+    height: 100px;
+}
+
+main img {
+    width: 40vw;
+    height: auto;
+    text-align: center;
+}
+
+main label {
+    font-size: 140%;
+}
+input[type=text], input[type=select], .dropdown {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-bottom: 2px solid maroon;
+    background-color: bisque;
+    color: black;
+    font-size: 120%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: bisque;
+    resize: none;
+    font-size: 120%
+  }
+
+input[type=submit], input[type=reset] {
+    background-color: #c82453;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid maroon;
+    float: left;
+    width: 280px;
+    height: 250px;
+    margin: 0px 2px;
+    margin-top: 2em;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid red;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 25px;
+    text-align: center;
+    font-size: 120%;
+    font-weight:bold;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
